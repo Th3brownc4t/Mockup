@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: sao;
+    src: url(../Fonts/SAOUITT-Bold.ttf);
+}
+@font-face {
+    font-family: saol;
+    src: url(../Fonts/SAOWelcomeTT-Regular.ttf);
+}
+a{
+    text-decoration: none;
+    font-family: saol;
+    font-size: 18pt;
+    color: black;
+}
+a:hover{
+    color: blue;
+    transition: 0.3s ease-in;
+}
+h2{
+    font-family: sao;
+    font-size: 40pt;
+    text-align: center;
+    margin-top: 8rem;
+}
+p{
+    text-align: center;
+    font-family: sao;
+    margin: 3rem 9rem 4rem 9rem ;
+    font-size: 17pt;
+}
+.logo{
+    width: 150px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 5rem;
+    background-color: white;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    gap: 1rem;
+}
+.fondo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fondo img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.8;
+}
+button{
+    font-family: sao;
+    font-size: 18pt;
+    width: 150px;
+    height: 40px;
+    border-radius: 12px;
+    background-color: white;
+    cursor: pointer;
+}
+button:hover{
+    color: blue;
+    transition: 0.3s;
+}
